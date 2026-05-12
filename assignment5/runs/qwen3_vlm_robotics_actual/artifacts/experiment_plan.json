@@ -1,0 +1,39 @@
+{
+  "idea_title": "Counterfactual Prompt Stress Tests for Robot Policies",
+  "datasets": [
+    "Open X-Embodiment",
+    "DROID",
+    "Ravens/Transporter-style simulated manipulation tasks"
+  ],
+  "baselines": [
+    "RT-2-style VLA policy",
+    "SayCan-style LLM plus affordance scorer",
+    "Octo generalist robot policy"
+  ],
+  "metrics": [
+    "task success rate under in-distribution and shifted conditions",
+    "shift detection AUROC before action execution",
+    "false intervention rate",
+    "language-goal consistency score"
+  ],
+  "ablations": [
+    "remove language-intent consistency check",
+    "remove visual corruption detector",
+    "replace affordance confidence with raw VLM score",
+    "train on single embodiment only"
+  ],
+  "expected_failure_cases": [
+    "novel object categories absent from robot demonstrations",
+    "ambiguous instructions with multiple valid manipulation targets",
+    "visual shifts that preserve semantics but change low-level control affordances"
+  ],
+  "risks": [
+    "offline datasets may not contain enough severe distribution shifts",
+    "VLM confidence can be poorly calibrated",
+    "real robot validation may be compute and hardware intensive"
+  ],
+  "implementation_notes": [
+    "Use physical GPUs 2 and 3 only through CUDA_VISIBLE_DEVICES=2,3.",
+    "Cache all Hugging Face assets inside the repository-level .hf_cache directory."
+  ]
+}

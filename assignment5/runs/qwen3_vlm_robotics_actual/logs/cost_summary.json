@@ -1,0 +1,65 @@
+{
+  "by_agent": {
+    "Research Manager": {
+      "prompt_tokens": 38,
+      "completion_tokens": 216,
+      "elapsed_sec": 32.33814454078674,
+      "cost_usd": 0.0
+    },
+    "Literature Agent": {
+      "prompt_tokens": 37,
+      "completion_tokens": 3,
+      "elapsed_sec": 10.068336009979248,
+      "cost_usd": 0.0
+    },
+    "Citation Verifier": {
+      "prompt_tokens": 31,
+      "completion_tokens": 3,
+      "elapsed_sec": 0.006193876266479492,
+      "cost_usd": 0.0
+    },
+    "Paper Summarizer": {
+      "prompt_tokens": 28,
+      "completion_tokens": 873,
+      "elapsed_sec": 14.191197633743286,
+      "cost_usd": 0.0
+    },
+    "Idea Generator": {
+      "prompt_tokens": 35,
+      "completion_tokens": 365,
+      "elapsed_sec": 16.939605474472046,
+      "cost_usd": 0.0
+    },
+    "Experiment Designer": {
+      "prompt_tokens": 28,
+      "completion_tokens": 487,
+      "elapsed_sec": 16.1347713470459,
+      "cost_usd": 0.0
+    },
+    "Critic Reviewer": {
+      "prompt_tokens": 70,
+      "completion_tokens": 683,
+      "elapsed_sec": 28.20471715927124,
+      "cost_usd": 0.0
+    },
+    "Revision Agent": {
+      "prompt_tokens": 31,
+      "completion_tokens": 706,
+      "elapsed_sec": 14.656571388244629,
+      "cost_usd": 0.0
+    },
+    "Writer Agent": {
+      "prompt_tokens": 32,
+      "completion_tokens": 1811,
+      "elapsed_sec": 23.49061369895935,
+      "cost_usd": 0.0
+    }
+  },
+  "total": {
+    "prompt_tokens": 330,
+    "completion_tokens": 5147,
+    "elapsed_sec": 156.03015112876892,
+    "cost_usd": 0.0
+  },
+  "billing_note": "No paid API was used."
+}

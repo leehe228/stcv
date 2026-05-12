@@ -1,0 +1,22 @@
+{
+  "topic": "vision-language models for robot manipulation under distribution shift",
+  "search_queries": [
+    "vision-language models for robot manipulation under distribution shift",
+    "vision-language models robot manipulation under distribution shift recent survey benchmark",
+    "vision-language models robot manipulation under distribution shift dataset baseline evaluation",
+    "vision-language models robot manipulation under distribution shift robustness distribution shift"
+  ],
+  "constraints": [],
+  "workflow": [
+    "manager",
+    "literature",
+    "citation_verifier",
+    "summarizer",
+    "idea_generator",
+    "experiment_designer",
+    "critic",
+    "reviser",
+    "writer"
+  ],
+  "stopping_rule": "Stop when reviewer score >= 4 or after 2 revision iterations."
+}

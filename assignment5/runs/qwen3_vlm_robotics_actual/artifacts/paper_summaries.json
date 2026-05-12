@@ -1,0 +1,47 @@
+[
+  {
+    "paper_id": "rt-2-vision-2023-198852f1",
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "core_claim": "RT-2 co-fine-tunes vision-language models on web data and robot trajectories to produce action tokens that transfer semantic knowledge to control.",
+    "method": "Language-conditioned or multimodal robot policy design.",
+    "experiments": "Robot manipulation, embodied reasoning, or cross-embodiment evaluation.",
+    "limitations": "Robustness under distribution shift and transparent failure diagnosis remain hard.",
+    "relevance_to_topic": "Connects to 'vision-language models for robot manipulation under distribution shift' through evidence about methods, baselines, or evaluation risks."
+  },
+  {
+    "paper_id": "do-as-i-2022-a610b79a",
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "core_claim": "SayCan combines large language model planning with learned robotic affordances so that language plans are grounded in what a robot can execute.",
+    "method": "Language-conditioned or multimodal robot policy design.",
+    "experiments": "Robot manipulation, embodied reasoning, or cross-embodiment evaluation.",
+    "limitations": "Robustness under distribution shift and transparent failure diagnosis remain hard.",
+    "relevance_to_topic": "Connects to 'vision-language models for robot manipulation under distribution shift' through evidence about methods, baselines, or evaluation risks."
+  },
+  {
+    "paper_id": "palm-e-an-2023-691c0be0",
+    "title": "PaLM-E: An Embodied Multimodal Language Model",
+    "core_claim": "PaLM-E injects continuous sensor observations into a language model to solve embodied reasoning, visual question answering, and robotic manipulation tasks.",
+    "method": "Language-conditioned or multimodal robot policy design.",
+    "experiments": "Robot manipulation, embodied reasoning, or cross-embodiment evaluation.",
+    "limitations": "Robustness under distribution shift and transparent failure diagnosis remain hard.",
+    "relevance_to_topic": "Connects to 'vision-language models for robot manipulation under distribution shift' through evidence about methods, baselines, or evaluation risks."
+  },
+  {
+    "paper_id": "vima-general-robot-2022-dc61ec9a",
+    "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+    "core_claim": "VIMA formulates robot manipulation as prompt-conditioned sequence modeling with multimodal prompts spanning text, images, and object references.",
+    "method": "Language-conditioned or multimodal robot policy design.",
+    "experiments": "Robot manipulation, embodied reasoning, or cross-embodiment evaluation.",
+    "limitations": "Robustness under distribution shift and transparent failure diagnosis remain hard.",
+    "relevance_to_topic": "Connects to 'vision-language models for robot manipulation under distribution shift' through evidence about methods, baselines, or evaluation risks."
+  },
+  {
+    "paper_id": "perceiver-actor-a-2022-529033c8",
+    "title": "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation",
+    "core_claim": "PerAct uses voxelized observations and a Perceiver transformer to learn language-conditioned manipulation policies across many tasks.",
+    "method": "Language-conditioned or multimodal robot policy design.",
+    "experiments": "Robot manipulation, embodied reasoning, or cross-embodiment evaluation.",
+    "limitations": "Robustness under distribution shift and transparent failure diagnosis remain hard.",
+    "relevance_to_topic": "Connects to 'vision-language models for robot manipulation under distribution shift' through evidence about methods, baselines, or evaluation risks."
+  }
+]

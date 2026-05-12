@@ -1,0 +1,72 @@
+{
+  "idea": {
+    "title": "Counterfactual Prompt Stress Tests for Robot Policies",
+    "hypothesis": "Counterfactual edits to language and image prompts reveal brittle shortcuts in multimodal robot policies under object, lighting, and instruction shift.",
+    "novelty": "Turns prompt perturbation into a systematic robot-policy diagnostic rather than a generic VLM robustness probe.",
+    "feasibility": "Feasible with offline datasets and simulator-generated prompt/image variants before costly real robot validation. The revised scope starts with offline dataset replay and simulator stress tests before any real-robot run.",
+    "expected_contribution": "A benchmark suite that links prompt sensitivity to manipulation success degradation. It also reports citation-grounded baseline mapping and reviewer issue resolution.",
+    "related_paper_ids": [
+      "rt-2-vision-2023-198852f1",
+      "do-as-i-2022-a610b79a",
+      "palm-e-an-2023-691c0be0",
+      "vima-general-robot-2022-dc61ec9a",
+      "perceiver-actor-a-2022-529033c8"
+    ],
+    "novelty_score": 4,
+    "feasibility_score": 5
+  },
+  "experiment_plan": {
+    "idea_title": "Counterfactual Prompt Stress Tests for Robot Policies",
+    "datasets": [
+      "Open X-Embodiment",
+      "DROID",
+      "Ravens/Transporter-style simulated manipulation tasks"
+    ],
+    "baselines": [
+      "RT-2-style VLA policy",
+      "SayCan-style LLM plus affordance scorer",
+      "Octo generalist robot policy"
+    ],
+    "metrics": [
+      "task success rate under in-distribution and shifted conditions",
+      "shift detection AUROC before action execution",
+      "false intervention rate",
+      "language-goal consistency score"
+    ],
+    "ablations": [
+      "remove language-intent consistency check",
+      "remove visual corruption detector",
+      "replace affordance confidence with raw VLM score",
+      "train on single embodiment only"
+    ],
+    "expected_failure_cases": [
+      "novel object categories absent from robot demonstrations",
+      "ambiguous instructions with multiple valid manipulation targets",
+      "visual shifts that preserve semantics but change low-level control affordances"
+    ],
+    "risks": [
+      "offline datasets may not contain enough severe distribution shifts",
+      "VLM confidence can be poorly calibrated",
+      "real robot validation may be compute and hardware intensive",
+      "Residual risk: metadata summaries may not capture all paper-specific caveats."
+    ],
+    "implementation_notes": [
+      "Use physical GPUs 2 and 3 only through CUDA_VISIBLE_DEVICES=2,3.",
+      "Cache all Hugging Face assets inside the repository-level .hf_cache directory.",
+      "Offline-first validation path: run all shifted-condition tests on stored demonstrations or simulation before hardware trials.",
+      "Baseline mapping: SayCan/RT-2/Octo or single-prompt/manager-worker variants are linked to verified references.",
+      "Risk section now preserves unresolved limits instead of hiding them after revision."
+    ]
+  },
+  "revision_notes": [
+    "Offline-first validation path: run all shifted-condition tests on stored demonstrations or simulation before hardware trials.",
+    "Baseline mapping: SayCan/RT-2/Octo or single-prompt/manager-worker variants are linked to verified references.",
+    "Risk section now preserves unresolved limits instead of hiding them after revision."
+  ],
+  "addressed_revisions": [
+    "Real robot validation may be too expensive; define an offline-first validation path.",
+    "Add an explicit offline-first experiment path.",
+    "Tie each baseline to a cited prior paper.",
+    "State how the revision changes the risk/limitation section."
+  ]
+}

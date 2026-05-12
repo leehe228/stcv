@@ -240,4 +240,10 @@ pyrightconfig.json
 .history
 .ionide
 
+### Assignment 5 local artifacts ###
+.conda/
+.pip_cache/
+.hf_cache/
+.tmp/
+
 # End of https://www.toptal.com/developers/gitignore/api/python,macos,linux,visualstudiocode

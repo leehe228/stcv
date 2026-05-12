@@ -1,0 +1,13 @@
+{
+  "overall_score": 4,
+  "novelty_issues": [],
+  "feasibility_issues": [
+    "Real robot validation may be too expensive; define an offline-first validation path."
+  ],
+  "experiment_issues": [],
+  "citation_issues": [],
+  "required_revisions": [
+    "Real robot validation may be too expensive; define an offline-first validation path."
+  ],
+  "stop": true
+}

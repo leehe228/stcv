@@ -1,0 +1,35 @@
+{
+  "request": {
+    "topic": "vision-language models for robot manipulation under distribution shift",
+    "constraints": [],
+    "target_domain": null,
+    "max_papers": 8,
+    "min_verified_papers": 5,
+    "max_revision_iter": 2
+  },
+  "runtime": {
+    "max_papers": 8,
+    "min_verified_papers": 5,
+    "max_revision_iter": 2,
+    "offline": false,
+    "use_local_llm": true,
+    "request_timeout_sec": 8.0,
+    "retry_count": 2
+  },
+  "models": {
+    "manager_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "critic_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "writer_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "idea_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "experiment_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "summarizer_model": "Qwen/Qwen3-4B-Instruct-2507",
+    "fallback_model": "deterministic-local-rules",
+    "temperature": 0.2,
+    "max_new_tokens": 768
+  },
+  "storage": {
+    "run_dir": "assignment5/runs/qwen3_vlm_robotics_actual",
+    "cuda_visible_devices": "2,3",
+    "cache_policy": "All generated artifacts, Hugging Face cache, and temporary files are configured under /dataset/hoeun/stcv."
+  }
+}

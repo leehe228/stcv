@@ -1,0 +1,16 @@
+{
+  "overall_score": 3,
+  "novelty_issues": [],
+  "feasibility_issues": [
+    "Real robot validation may be too expensive; define an offline-first validation path."
+  ],
+  "experiment_issues": [],
+  "citation_issues": [],
+  "required_revisions": [
+    "Real robot validation may be too expensive; define an offline-first validation path.",
+    "Add an explicit offline-first experiment path.",
+    "Tie each baseline to a cited prior paper.",
+    "State how the revision changes the risk/limitation section."
+  ],
+  "stop": false
+}

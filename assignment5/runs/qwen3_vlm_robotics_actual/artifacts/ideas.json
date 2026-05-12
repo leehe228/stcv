@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Shift-Aware VLA Policy Auditing",
+    "hypothesis": "A vision-language-action policy can flag distribution shift before action execution by comparing language intent, visual evidence, and affordance confidence.",
+    "novelty": "Combines VLA control with an explicit pre-action shift auditor instead of treating failures only as post-hoc rollout errors.",
+    "feasibility": "Feasible with Open X-Embodiment, DROID, and synthetic corruptions using frozen open VLM encoders plus lightweight classifiers.",
+    "expected_contribution": "A reproducible robustness evaluation protocol and an intervention mechanism for safer robot manipulation.",
+    "related_paper_ids": [
+      "rt-2-vision-2023-198852f1",
+      "do-as-i-2022-a610b79a",
+      "palm-e-an-2023-691c0be0",
+      "vima-general-robot-2022-dc61ec9a",
+      "perceiver-actor-a-2022-529033c8"
+    ],
+    "novelty_score": 4,
+    "feasibility_score": 4
+  },
+  {
+    "title": "Counterfactual Prompt Stress Tests for Robot Policies",
+    "hypothesis": "Counterfactual edits to language and image prompts reveal brittle shortcuts in multimodal robot policies under object, lighting, and instruction shift.",
+    "novelty": "Turns prompt perturbation into a systematic robot-policy diagnostic rather than a generic VLM robustness probe.",
+    "feasibility": "Feasible with offline datasets and simulator-generated prompt/image variants before costly real robot validation.",
+    "expected_contribution": "A benchmark suite that links prompt sensitivity to manipulation success degradation.",
+    "related_paper_ids": [
+      "rt-2-vision-2023-198852f1",
+      "do-as-i-2022-a610b79a",
+      "palm-e-an-2023-691c0be0",
+      "vima-general-robot-2022-dc61ec9a",
+      "perceiver-actor-a-2022-529033c8"
+    ],
+    "novelty_score": 4,
+    "feasibility_score": 5
+  },
+  {
+    "title": "Reviewer-in-the-Loop Robot Experiment Planner",
+    "hypothesis": "A critic-reviser multi-agent workflow can produce more complete robot experiment plans than a single LLM prompt by checking citations, baselines, and risks.",
+    "novelty": "Applies multi-agent research automation directly to embodied AI experiment planning with citation verification as a first-class step.",
+    "feasibility": "Highly feasible as a software system using open-source LLMs and public paper metadata.",
+    "expected_contribution": "A practical tool and evaluation rubric for designing stronger VLM robotics studies.",
+    "related_paper_ids": [
+      "rt-2-vision-2023-198852f1",
+      "do-as-i-2022-a610b79a",
+      "palm-e-an-2023-691c0be0",
+      "vima-general-robot-2022-dc61ec9a",
+      "perceiver-actor-a-2022-529033c8"
+    ],
+    "novelty_score": 3,
+    "feasibility_score": 5
+  }
+]

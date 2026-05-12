@@ -1,0 +1,252 @@
+[
+  {
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "authors": [
+      "Anthony Brohan",
+      "Noah Brown",
+      "Justice Carbajal",
+      "Yevgen Chebotar",
+      "Xiaofeng Chen"
+    ],
+    "year": 2023,
+    "venue": "CoRL",
+    "url": "https://arxiv.org/abs/2307.15818",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "RT-2 co-fine-tunes vision-language models on web data and robot trajectories to produce action tokens that transfer semantic knowledge to control."
+  },
+  {
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "authors": [
+      "Michael Ahn",
+      "Anthony Brohan",
+      "Noah Brown",
+      "Yevgen Chebotar",
+      "Omar Cortes"
+    ],
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.01691",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "SayCan combines large language model planning with learned robotic affordances so that language plans are grounded in what a robot can execute."
+  },
+  {
+    "title": "PaLM-E: An Embodied Multimodal Language Model",
+    "authors": [
+      "Danny Driess",
+      "Fei Xia",
+      "Mehdi S. M. Sajjadi",
+      "Corey Lynch",
+      "Aakanksha Chowdhery"
+    ],
+    "year": 2023,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2303.03378",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "PaLM-E injects continuous sensor observations into a language model to solve embodied reasoning, visual question answering, and robotic manipulation tasks."
+  },
+  {
+    "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+    "authors": [
+      "Yunfan Jiang",
+      "Agrim Gupta",
+      "Zichen Zhang",
+      "Guanzhi Wang",
+      "Yuke Zhu"
+    ],
+    "year": 2022,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2210.03094",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "VIMA formulates robot manipulation as prompt-conditioned sequence modeling with multimodal prompts spanning text, images, and object references."
+  },
+  {
+    "title": "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation",
+    "authors": [
+      "Mohan Shridhar",
+      "Lucas Manuelli",
+      "Dieter Fox"
+    ],
+    "year": 2022,
+    "venue": "CoRL",
+    "url": "https://arxiv.org/abs/2209.05451",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "PerAct uses voxelized observations and a Perceiver transformer to learn language-conditioned manipulation policies across many tasks."
+  },
+  {
+    "title": "DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset",
+    "authors": [
+      "Alexander Khazatsky",
+      "Karl Pertsch",
+      "Suraj Nair",
+      "Ashwin Balakrishna",
+      "Sudeep Dasari"
+    ],
+    "year": 2024,
+    "venue": "RSS",
+    "url": "https://arxiv.org/abs/2403.12945",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "DROID provides diverse in-the-wild robot demonstrations to study scalable imitation learning and robustness across environments."
+  },
+  {
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "authors": [
+      "Open X-Embodiment Collaboration"
+    ],
+    "year": 2023,
+    "venue": "ICRA",
+    "url": "https://arxiv.org/abs/2310.08864",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "Open X-Embodiment aggregates robot demonstrations from many embodiments and trains RT-X policies that improve cross-robot generalization."
+  },
+  {
+    "title": "Octo: An Open-Source Generalist Robot Policy",
+    "authors": [
+      "Octo Model Team",
+      "Dibyendu Ghosh",
+      "Homer Walke",
+      "Karl Pertsch"
+    ],
+    "year": 2024,
+    "venue": "RSS Workshop",
+    "url": "https://arxiv.org/abs/2405.12213",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "Octo trains a generalist robot policy on large mixed robot datasets with flexible goal specifications and open-source release."
+  },
+  {
+    "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+    "authors": [
+      "Ranjan Sapkota",
+      "Manoj Karkee"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2508.19294v2",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "The fusion of language and vision in large vision-language models (LVLMs) has revolutionized deep learning-based object detection by enhancing adaptability, contextual reasoning, and generalization beyond traditional architectures. This in-depth review presents a structured exploration of the state-of-the-art in LVLMs, systematically organized through a three-step research review process. First, we discuss the functioning of vision language models (VLMs) for object detection, describing how these models harness natural language processing (NLP) and computer vision (CV) techniques to revolutionize object detection and localization. We then explain the architectural innovations, training paradigms, and output flexibility of recent LVLMs for object detection, highlighting how they achieve advanced contextual understanding for object detection. The review thoroughly examines the approaches used in integration of visual and textual information, demonstrating the progress made in object detection using VLMs that facilitate more sophisticated object detection and localization strategies. This review presents comprehensive visualizations demonstrating LVLMs' effectiveness in diverse scenarios including localization and segmentation, and then compares their real-time performance, adaptability, and complexity to traditional deep learning systems. Based on the review, its is expected that LVLMs will soon meet or surpass the performance of conventional methods in object detection. The review also identifies a few major limitations of the current LVLM modes, proposes solutions to address those challenges, and presents a clear roadmap for the future advancement in this field. We conclude, based on this study, that the recent advancement in LVLMs have made and will continue to make a transformative impact on object detection and robotic applications in the future."
+  },
+  {
+    "title": "VLS: Steering Pretrained Robot Policies via Vision-Language Models",
+    "authors": [
+      "Shuo Liu",
+      "Ishneet Sukhvinder Singh",
+      "Yiqing Xu",
+      "Jiafei Duan",
+      "Ranjay Krishna"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2602.03973v1",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "Why do pretrained diffusion or flow-matching policies fail when the same task is performed near an obstacle, on a shifted support surface, or amid mild clutter? Such failures rarely reflect missing motor skills; instead, they expose a limitation of imitation learning under train-test shifts, where action generation is tightly coupled to training-specific spatial configurations and task specifications. Retraining or fine-tuning to address these failures is costly and conceptually misaligned, as the required behaviors already exist but cannot be selectively adapted at test time. We propose Vision-Language Steering (VLS), a training-free framework for inference-time adaptation of frozen generative robot policies. VLS treats adaptation as an inference-time control problem, steering the sampling process of a pretrained diffusion or flow-matching policy in response to out-of-distribution observation-language inputs without modifying policy parameters. By leveraging vision-language models to synthesize trajectory-differentiable reward functions, VLS guides denoising toward action trajectories that satisfy test-time spatial and task requirements. Across simulation and real-world evaluations, VLS consistently outperforms prior steering methods, achieving a 31% improvement on CALVIN and a 13% gain on LIBERO-PRO. Real-world deployment on a Franka robot further demonstrates robust inference-time adaptation under test-time spatial and semantic shifts. Project page: https://vision-language-steering.github.io/webpage/"
+  },
+  {
+    "title": "OVAL-Prompt: Open-Vocabulary Affordance Localization for Robot Manipulation through LLM Affordance-Grounding",
+    "authors": [
+      "Edmond Tong",
+      "Anthony Opipari",
+      "Stanley Lewis",
+      "Zhen Zeng",
+      "Odest Chadwicke Jenkins"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2404.11000v2",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "In order for robots to interact with objects effectively, they must understand the form and function of each object they encounter. Essentially, robots need to understand which actions each object affords, and where those affordances can be acted on. Robots are ultimately expected to operate in unstructured human environments, where the set of objects and affordances is not known to the robot before deployment (i.e. the open-vocabulary setting). In this work, we introduce OVAL-Prompt, a prompt-based approach for open-vocabulary affordance localization in RGB-D images. By leveraging a Vision Language Model (VLM) for open-vocabulary object part segmentation and a Large Language Model (LLM) to ground each part-segment-affordance, OVAL-Prompt demonstrates generalizability to novel object instances, categories, and affordances without domain-specific finetuning. Quantitative experiments demonstrate that without any finetuning, OVAL-Prompt achieves localization accuracy that is competitive with supervised baseline models. Moreover, qualitative experiments show that OVAL-Prompt enables affordance-based robot manipulation of open-vocabulary object instances and categories. Project Page: https://ekjt.github.io/OVAL-Prompt/"
+  },
+  {
+    "title": "Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey",
+    "authors": [
+      "Rui Shao",
+      "Wei Li",
+      "Lingsen Zhang",
+      "Renshan Zhang",
+      "Zhiyang Liu",
+      "Ran Chen",
+      "Liqiang Nie"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2508.13073v2",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "Robotic manipulation, a key frontier in robotics and embodied AI, requires precise motor control and multimodal understanding, yet traditional rule-based methods fail to scale or generalize in unstructured, novel environments. In recent years, Vision-Language-Action (VLA) models, built upon Large Vision-Language Models (VLMs) pretrained on vast image-text datasets, have emerged as a transformative paradigm. This survey provides the first systematic, taxonomy-oriented review of large VLM-based VLA models for robotic manipulation. We begin by clearly defining large VLM-based VLA models and delineating two principal architectural paradigms: (1) monolithic models, encompassing single-system and dual-system designs with differing levels of integration; and (2) hierarchical models, which explicitly decouple planning from execution via interpretable intermediate representations. Building on this foundation, we present an in-depth examination of large VLM-based VLA models: (1) integration with advanced domains, including reinforcement learning, training-free optimization, learning from human videos, and world model integration; (2) synthesis of distinctive characteristics, consolidating architectural traits, operational strengths, and the datasets and benchmarks that support their development; (3) identification of promising directions, including memory mechanisms, 4D perception, efficient adaptation, multi-agent cooperation, and other emerging capabilities. This survey consolidates recent advances to resolve inconsistencies in existing taxonomies, mitigate research fragmentation, and fill a critical gap through the systematic integration of studies at the intersection of large VLMs and robotic manipulation. We provide a regularly updated project page to document ongoing progress: https://github.com/JiuTian-VL/Large-VLM-based-VLA-for-Robotic-Manipulation"
+  },
+  {
+    "title": "Time Series Prediction under Distribution Shift using Differentiable Forgetting",
+    "authors": [
+      "Stefanos Bennett",
+      "Jase Clarkson"
+    ],
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2207.11486v1",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "Time series prediction is often complicated by distribution shift which demands adaptive models to accommodate time-varying distributions. We frame time series prediction under distribution shift as a weighted empirical risk minimisation problem. The weighting of previous observations in the empirical risk is determined by a forgetting mechanism which controls the trade-off between the relevancy and effective sample size that is used for the estimation of the predictive model. In contrast to previous work, we propose a gradient-based learning method for the parameters of the forgetting mechanism. This speeds up optimisation and therefore allows more expressive forgetting mechanisms."
+  },
+  {
+    "title": "Manipulate-Anything: Automating Real-World Robots using Vision-Language Models",
+    "authors": [
+      "Jiafei Duan",
+      "Wentao Yuan",
+      "Wilbert Pumacay",
+      "Yi Ru Wang",
+      "Kiana Ehsani",
+      "Dieter Fox",
+      "Ranjay Krishna"
+    ],
+    "year": 2024,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2406.18915v3",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "Large-scale endeavors like and widespread community efforts such as Open-X-Embodiment have contributed to growing the scale of robot demonstration data. However, there is still an opportunity to improve the quality, quantity, and diversity of robot demonstration data. Although vision-language models have been shown to automatically generate demonstration data, their utility has been limited to environments with privileged state information, they require hand-designed skills, and are limited to interactions with few object instances. We propose Manipulate-Anything, a scalable automated generation method for real-world robotic manipulation. Unlike prior work, our method can operate in real-world environments without any privileged state information, hand-designed skills, and can manipulate any static object. We evaluate our method using two setups. First, Manipulate-Anything successfully generates trajectories for all 7 real-world and 14 simulation tasks, significantly outperforming existing methods like VoxPoser. Second, Manipulate-Anything's demonstrations can train more robust behavior cloning policies than training with human demonstrations, or from data generated by VoxPoser, Scaling-up, and Code-As-Policies. We believe Manipulate-Anything can be a scalable method for both generating data for robotics and solving novel tasks in a zero-shot setting. Project page: https://robot-ma.github.io/."
+  },
+  {
+    "title": "ManipBench: Benchmarking Vision-Language Models for Low-Level Robot Manipulation",
+    "authors": [
+      "Enyu Zhao",
+      "Vedant Raval",
+      "Hejia Zhang",
+      "Jiageng Mao",
+      "Zeyu Shangguan",
+      "Stefanos Nikolaidis",
+      "Yue Wang",
+      "Daniel Seita"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2505.09698v2",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "Vision-Language Models (VLMs) have revolutionized artificial intelligence and robotics due to their commonsense reasoning capabilities. In robotic manipulation, VLMs are used primarily as high-level planners, but recent work has also studied their lower-level reasoning ability, which refers to making decisions about precise robot movements. However, the community currently lacks a clear and common benchmark that can evaluate how well VLMs can aid low-level reasoning in robotics. Consequently, we propose a novel benchmark, ManipBench, to evaluate the low-level robot manipulation reasoning capabilities of VLMs across various dimensions, including how well they understand object-object interactions and deformable object manipulation. We extensively test 33 representative VLMs across 10 model families on our benchmark, including variants to test different model sizes. Our evaluation shows that the performance of VLMs significantly varies across tasks, and there is a strong correlation between this performance and trends in our real-world manipulation tasks. It also shows that there remains a significant gap between these models and human-level understanding. See our website at: https://manipbench.github.io."
+  },
+  {
+    "title": "On the Reliability of Vision-Language Models Under Adversarial Frequency-Domain Perturbations",
+    "authors": [
+      "Jordan Vice",
+      "Naveed Akhtar",
+      "Yansong Gao",
+      "Richard Hartley",
+      "Ajmal Mian"
+    ],
+    "year": 2025,
+    "venue": "arXiv",
+    "url": "http://arxiv.org/abs/2507.22398v3",
+    "doi": null,
+    "source": "arxiv",
+    "abstract": "Vision-Language Models (VLMs) are increasingly used as perceptual modules for visual content reasoning, including through captioning and DeepFake detection. In this work, we expose a critical vulnerability of VLMs when exposed to subtle, structured perturbations in the frequency domain. Specifically, we highlight how these feature transformations undermine authenticity/DeepFake detection and automated image captioning tasks. We design targeted image transformations, operating in the frequency domain to systematically adjust VLM outputs when exposed to frequency-perturbed real and synthetic images. We demonstrate that the perturbation injection method generalizes across five state-of-the-art VLMs which includes different-parameter Qwen2/2.5 and BLIP models. Experimenting across ten real and generated image datasets reveals that VLM judgments are sensitive to frequency-based cues and may not wholly align with semantic content. Crucially, we show that visually-imperceptible spatial frequency transformations expose the fragility of VLMs deployed for automated image captioning and authenticity detection tasks. Our findings under realistic, black-box constraints challenge the reliability of VLMs, underscoring the need for robust multimodal perception systems."
+  }
+]

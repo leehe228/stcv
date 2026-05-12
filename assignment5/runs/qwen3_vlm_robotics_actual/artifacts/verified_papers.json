@@ -1,0 +1,115 @@
+[
+  {
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "authors": [
+      "Anthony Brohan",
+      "Noah Brown",
+      "Justice Carbajal",
+      "Yevgen Chebotar",
+      "Xiaofeng Chen"
+    ],
+    "year": 2023,
+    "venue": "CoRL",
+    "url": "https://arxiv.org/abs/2307.15818",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "RT-2 co-fine-tunes vision-language models on web data and robot trajectories to produce action tokens that transfer semantic knowledge to control.",
+    "paper_id": "rt-2-vision-2023-198852f1",
+    "verification_status": "verified",
+    "verification_notes": [
+      "title, author/year metadata, and URL/DOI are present",
+      "manually curated seed citation"
+    ],
+    "duplicate_of": null
+  },
+  {
+    "title": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances",
+    "authors": [
+      "Michael Ahn",
+      "Anthony Brohan",
+      "Noah Brown",
+      "Yevgen Chebotar",
+      "Omar Cortes"
+    ],
+    "year": 2022,
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2204.01691",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "SayCan combines large language model planning with learned robotic affordances so that language plans are grounded in what a robot can execute.",
+    "paper_id": "do-as-i-2022-a610b79a",
+    "verification_status": "verified",
+    "verification_notes": [
+      "title, author/year metadata, and URL/DOI are present",
+      "manually curated seed citation"
+    ],
+    "duplicate_of": null
+  },
+  {
+    "title": "PaLM-E: An Embodied Multimodal Language Model",
+    "authors": [
+      "Danny Driess",
+      "Fei Xia",
+      "Mehdi S. M. Sajjadi",
+      "Corey Lynch",
+      "Aakanksha Chowdhery"
+    ],
+    "year": 2023,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2303.03378",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "PaLM-E injects continuous sensor observations into a language model to solve embodied reasoning, visual question answering, and robotic manipulation tasks.",
+    "paper_id": "palm-e-an-2023-691c0be0",
+    "verification_status": "verified",
+    "verification_notes": [
+      "title, author/year metadata, and URL/DOI are present",
+      "manually curated seed citation"
+    ],
+    "duplicate_of": null
+  },
+  {
+    "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
+    "authors": [
+      "Yunfan Jiang",
+      "Agrim Gupta",
+      "Zichen Zhang",
+      "Guanzhi Wang",
+      "Yuke Zhu"
+    ],
+    "year": 2022,
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2210.03094",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "VIMA formulates robot manipulation as prompt-conditioned sequence modeling with multimodal prompts spanning text, images, and object references.",
+    "paper_id": "vima-general-robot-2022-dc61ec9a",
+    "verification_status": "verified",
+    "verification_notes": [
+      "title, author/year metadata, and URL/DOI are present",
+      "manually curated seed citation"
+    ],
+    "duplicate_of": null
+  },
+  {
+    "title": "Perceiver-Actor: A Multi-Task Transformer for Robotic Manipulation",
+    "authors": [
+      "Mohan Shridhar",
+      "Lucas Manuelli",
+      "Dieter Fox"
+    ],
+    "year": 2022,
+    "venue": "CoRL",
+    "url": "https://arxiv.org/abs/2209.05451",
+    "doi": null,
+    "source": "offline_seed",
+    "abstract": "PerAct uses voxelized observations and a Perceiver transformer to learn language-conditioned manipulation policies across many tasks.",
+    "paper_id": "perceiver-actor-a-2022-529033c8",
+    "verification_status": "verified",
+    "verification_notes": [
+      "title, author/year metadata, and URL/DOI are present",
+      "manually curated seed citation"
+    ],
+    "duplicate_of": null
+  }
+]
